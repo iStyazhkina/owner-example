@@ -12,7 +12,7 @@ import java.net.URL;
 public interface WebConfig extends Config {
 
     @Key("web.browser.name")
-    @DefaultValue("CHROME")
+    @DefaultValue("chrome")
     String browserName();
 
     @Key("web.browser.version")
